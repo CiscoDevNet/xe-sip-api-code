@@ -35,7 +35,7 @@ Configure the following in the ```config.yaml``` file:
 	```
 	cssm_connection: on
 	```
-2. Enter the ```client_id::``` and ```client_secret```. 
+2. Enter the ```client_id:``` and ```client_secret```. 
 
 	```
     api_keys:
@@ -102,7 +102,7 @@ Running the script provides you with four operations to choose from:
 
 * An API to _delete_ a RUM report is not supported. This is because RUM reports, once closed, are immutable. To erase all data from a product instance, see [Decommissioning a Product Instance](https://developer.cisco.com/docs/ios-xe/smart-licensing/#!recommended-workflows/decommissioning-a-product-instance).
 
-* An API to return a SLAC (for export-controlled or enforced licenses or throughput greater than 205 Mbps) is currently not supported.
+* An API to return a SLAC (for export-controlled or enforced licenses or throughput greater than 250 Mbps) is currently not supported.
 
 
 ## Getting Help
